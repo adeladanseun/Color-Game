@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Game | Guess the right color</title>
+    <link rel="stylesheet" href="colorgame.css">
+    <!-- <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="../build/babel.js"></script> -->
+</head>
+
+<body id="mainbody">
+    <!-- This app is to be attempted using React.js -->
+     <!-- Unfortunately we haven't yet been able to set it up without nodejs -->
+    <div class="difficulty">
+        <p class="gamename">Color Game</p>
+        <button class="btn easy-btn">Easy</button>
+        <button class="btn hard-btn">Hard</button>
+        <button class="btn insane-btn">Insane</button>
+        <button id="morph">Flash</button>
+        <p id="status" style="font-size: 29px;">Correct</p>
+    </div>
+    <div id="main">
+        <p id="specialColor"></p>
+        <div id="body"></div>
+    <div class="gameDetails">
+        <p id="gameCount">Game Count: 0</p>
+        <p id="scoreCount">Score Count: 0</p>
+    </div>
+    </div>
+    <script src="colorgame.js"></script>
+</body>
+
+</html>
